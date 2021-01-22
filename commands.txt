@@ -1,0 +1,10 @@
+# create & start a conda environment
+conda create -n textgen python=3.7
+conda activate textgen
+
+# install required packages
+pip install django
+pip install djangorestframework
+pip install django-cors-headers
+pip install tensorflow
+pip install -q git+https://github.com/huggingface/transformers.git
