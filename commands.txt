@@ -8,3 +8,7 @@ pip install djangorestframework
 pip install django-cors-headers
 pip install tensorflow
 pip install -q git+https://github.com/huggingface/transformers.git
+
+# start project
+django-admin startproject core .
+python manage.py startapp textgen
